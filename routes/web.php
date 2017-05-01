@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('agregar');
+    return view('prueba');
 });
 
 Route::post('/crearProducto', 'controladorProductos@store');
