@@ -23,11 +23,47 @@ class controladorProductos extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+    //render vistas
     public function create()
     {
         return view('agregar');
     }
 
+    public function chequeras()
+    {
+        return view('chequeras');
+    }
+
+    public function billeteras()
+    {
+        return view('billeteras');
+    }
+
+     public function carteras()
+    {
+        return view('carteras');
+    }
+
+     public function cinturones()
+    {
+        return view('cinturones');
+    }
+
+     public function contacto()
+    {
+        return view('contacto');
+    }
+
+     public function monederos()
+    {
+        return view('monederos');
+    }
+
+    public function promociones()
+    {
+        return view('promociones');
+    }
     /**
      * Store a newly created resource in storage.
      *

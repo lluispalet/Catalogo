@@ -82,6 +82,7 @@ h2 {
 h3 {
     font-size: 32px;
     line-height: 45px;
+    color: white;
 }
 
 h4 {
@@ -1053,8 +1054,8 @@ margin-right: 8px;
 
 /* ================ Footer Section ================ */
 #section-footer {
-	padding-top: 80px;
-	padding-bottom: 80px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 	background: #333;
 	color:#e5e5e5;
 }
@@ -1083,6 +1084,62 @@ margin-right: 8px;
 }
 
 .copyright {
-	padding-top: 15px;
+	min-height:40px; 
+	background-color:#000000;
+}
+
+footer { 
+	background-color:#0c1a1e; 
+	min-height:350px; font-family: 'Open Sans', sans-serif; 
+	position: absolute;
+}
+.footerleft { 
+	margin-top:50px; 
+	padding:0 36px; 
+}
+.logofooter { 
+	margin-bottom:10px; 
+	font-size:25px; 
+	color:#fff; 
+	font-weight:700;
+}
+
+.footerleft p { 
+	color:#fff; 
+	font-size:12px !important; 
+	font-family: 'Open Sans', sans-serif; 
+}
+.footerleft p i { 
+	width:20px; color:#999;
+}
+
+
+.paddingtop-bottom {  
+	margin-top:50px;
+}
+.footer-ul { 
+	list-style-type:none;  
+	padding-left:0px; 
+	margin-left:2px;
+}
+.footer-ul li { 
+	line-height:29px; 
+	font-size:12px;
+}
+.footer-ul li a { 
+	color:#a0a3a4; 
+	transition: color 0.2s linear 0s, background 0.2s linear 0s; 
+}
+.footer-ul i { 
+	margin-right:10px;
+}
+.footer-ul li a:hover {
+	transition: color 0.2s linear 0s, background 0.2s linear 0s; 
+	color:#ff670f; }
+.copyright p {
+	text-align:left; 
+	color:#FFF; 
+	padding:10px 0; 
+	margin-bottom:0px;
 }
 

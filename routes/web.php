@@ -12,8 +12,16 @@
 */
 
 Route::get('/', function () {
-    return view('prueba');
+    return view('agregar');
 });
+
+Route::get('/billeteras', 'controladorProductos@billeteras');
+Route::get('/carteras', 'controladorProductos@carteras');
+Route::get('/chequeras', 'controladorProductos@chequeras');
+Route::get('/cinturones', 'controladorProductos@cinturones');
+Route::get('/contacto', 'controladorProductos@contacto');
+Route::get('/monederos', 'controladorProductos@monederos');
+Route::get('/promociones', 'controladorProductos@promociones');
 
 Route::post('/crearProducto', 'controladorProductos@store');
 

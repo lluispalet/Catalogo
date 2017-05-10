@@ -1,10 +1,9 @@
 @extends('layout')
 @yield('content')
-<br>
-<br>
-<br>
 	<div class='col-xs-7 col-md-offset-3'>
-	    <h1>Formulario Ingreso Productos</h1>
+		<br>
+		<br>
+	    <h3>Formulario Ingreso Productos</h3>
 		<form role="form" action='crearProducto' method="POST">
 		      {!!CSRF_field()!!}
 		  <div class="form-group">
